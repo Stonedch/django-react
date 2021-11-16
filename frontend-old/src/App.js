@@ -17,10 +17,10 @@ const BaseLayout = () => (
     <div className="navbar-nav">
       <a className="nav-item nav-link" href="/">CUSTOMERS</a>
       <a className="nav-item nav-link" href="/customer">CREATE CUSTOMER</a>
-      
+
     </div>
   </div>
-</nav>  
+</nav>
 
     <div className="content">
       <Route path="/" exact component={CustomersList} />
